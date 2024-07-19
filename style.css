@@ -1,0 +1,130 @@
+.main{
+    width: 100%;
+    height: 700px;
+    background: url(images/hero.gif) no-repeat center;
+    background-size: cover;
+    color: wheat;
+}
+
+.input-area input{
+ width: 30%;
+ height: 50px;
+ background-color: rgba(0, 0, 0, 0.279);
+ border: solid green 1px;
+ border-radius: 6px;
+ color: white;
+}
+
+.input-area select{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(0, 0, 121);
+    
+}
+
+.input-area select:hover{
+    background-color: rgba(8, 0, 255, 0.701);
+}
+
+.input-area button{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.623);
+    width: 10%;
+}
+
+.input-area button:hover{
+    color: black;
+    background-color: rgb(34, 255, 0);
+}
+
+.list-area{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-area div{
+    width: 320px;
+    margin: 10px;
+    border-radius: 10px;
+    /* background-color: rgba(45, 40, 40, 0.453); */
+    border: .5px solid white;
+    height: 500px;
+}
+
+.maruti{
+    background: url(images/musta.jpg) no-repeat center;
+    background-size: cover;
+    opacity: .5;
+}
+
+.maruti:hover{
+    opacity: .8;
+    transition: 1s;
+}
+
+.honda{
+    background: url(images/BMW.jpg) no-repeat center;
+    background-size: cover;
+    opacity: .5;
+}
+
+.honda:hover{
+    opacity: .8;
+    transition: 1s;
+}
+
+.toyota{
+    background: url(images/Car.jpg) no-repeat center;
+    background-size: cover;
+    opacity: .5;
+}
+
+.toyota:hover{
+    opacity: .8;
+    transition: 1s;
+}
+
+.mahindra{
+    background: url(images/mus.jpg) no-repeat center;
+    background-size: cover;
+    opacity: .5;
+}
+
+.mahindra:hover{
+    opacity: .8;
+    transition: 1s;
+}
+
+.list{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.423);
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 5px
+}
+
+i{
+    color: rgb(255, 255, 255);
+    float: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+i:hover{
+    color: red;
+}
